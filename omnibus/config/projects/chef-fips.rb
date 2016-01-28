@@ -39,7 +39,7 @@ override :ruby, version: "2.1.7"
 # Global FIPS override flag.
 override :fips, enabled: true
 
-override :chef, version: "local_source"
+override :chef, version: "jdm/fips-58"
 override :ohai, version: "master"
 
 msi_upgrade_code = "819F5DB3-B818-4358-BB2B-54B8171D0A26"
